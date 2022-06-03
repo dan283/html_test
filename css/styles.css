@@ -1,0 +1,150 @@
+.top-container {
+  background-color: #C2DED1;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: lato, sans-serif;
+}
+
+h1 {
+  font-size: 5.6em;
+  color: #66BFBF;
+  margin-top: 50px auto 0px auto;
+}
+
+h2{
+  font-size: 2.5em;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  color: #11999E;
+  font-size: 1.8em;
+}
+
+.bottom-cloud {
+  position: relative;
+  right:126px;
+  bottom:307px;
+}
+
+.top-cloud {
+  position: relative;
+  left:384px;
+  top:35px;
+
+}
+
+.top_logo {
+  width:200px;
+  position: relative;
+  left:20px;
+  z-index: 1;
+  float:right;
+
+}
+
+.top_logo2 {
+  width:200px;
+  position: relative;
+  right:50px;
+  z-index: 1;
+  float:left;
+
+}
+
+.f_text {
+  text-align: center;
+  display: inline-block;
+  width:50%;
+  margin:4px;
+  font-weight: bold;
+  font-size: 1.1em;
+  /*position: relative;
+  z-index:2*/
+}
+
+.puke_logo {
+  margin:30px auto 40px auto;
+  display: block;
+  width:200px;
+  /*position: relative;
+  z-index: 1;*/
+}
+
+
+.footer-link {
+  color: #11999E;
+}
+
+.skill-row {
+  display: inline-block;
+  line-height: 1.5;
+  width:50%;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+.contact-me {
+  display: inline-block;
+  width:50%;
+}
+
+
+
+
+.mountain {
+  position:relative;
+  top:22px;
+  margin: 10px;
+}
+
+hr {
+border-style:none;
+border-top-style:dotted;
+border-width:10px;
+border-color:#EAF6F6;
+width: 5%;
+}
+
+/*.profile {
+  display: inline-block;
+}
+*/
+.bottom-container {
+  text-align: center;
+  margin:20px 0px 0px 0px;
+  padding: 50px;
+  height:100px;
+  background-color:#66BFBF;
+}
+.footer-link {
+  margin:20px;
+  font-size: 1.5em;
+  color: #11999E;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+
+.end-notes {
+  margin:40px;
+  text-align: center;
+  color: #EAF6F6;
+}
+.btn {
+  background-image: linear-gradient(#66BFBF, #11999E);
+  color:#EAF6F6;
+  font-size: 1.5em;
+  padding: 15px;
+  border:none;
+  border-radius: 8px;
+}
