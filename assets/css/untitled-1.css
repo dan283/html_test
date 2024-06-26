@@ -1,0 +1,10 @@
+#whatnot {
+  /*background-color: #18bc9c !important;*/
+  background: url("../../assets/img/portfolio/x23.jpg");
+  background-attachment: fixed;
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*filter: blur(2px);*/
+}
+
