@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kártyaolvasó FT-13</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f5f9ff;
+      color: #222;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 24px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+      color: #0a3d62;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    .section h2 {
+      font-size: 1.2rem;
+      color: #4a6fa5;
+      margin-bottom: 1rem;
+    }
+    .details p {
+      margin-bottom: 0.5rem;
+    }
+    .input-field {
+      background: #f0f4ff;
+      padding: 0.8rem;
+      border-radius: 12px;
+      width: 100%;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    .links a {
+      display: block;
+      padding: 1rem;
+      background: #e6f0ff;
+      color: #0a3d62;
+      text-decoration: none;
+      border-radius: 16px;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      transition: background-color 0.3s;
+    }
+    .links a:hover {
+      background: #c8e0ff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Kártyaolvasó FT-13</h1>
+
+    <div class="section details">
+      <h2>Eszköz adatok</h2>
+      <p><strong>Eszköz neve:</strong> Kártyaolvasó FT-13</p>
+      <p><strong>Javítás típusa:</strong> Mechanikai hiba javítása</p>
+      <p><strong>Dátum:</strong> 2025.04.16</p>
+      <p><strong>Munkavégző:</strong> Tóth Károly</p>
+      <p><strong>Munkalap szám:</strong> 9277</p>
+
+      <label for="megjegyzes"><strong>Megjegyzés:</strong></label>
+      <textarea id="megjegyzes" class="input-field" rows="4">A kártyaolvasó mechanikai problémáinak orvoslása, tisztítás és tesztelés.</textarea>
+
+      <label for="raforditott-ora"><strong>Ráfordított idő:</strong></label>
+      <input id="raforditott-ora" type="text" class="input-field" value="1.5 óra" />
+    </div>
+    <a href="index.html">Vissza a főoldalra</a>
+  </div>
+</body>
+</html>
